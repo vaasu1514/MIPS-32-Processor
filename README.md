@@ -1,1 +1,1 @@
-# MIPS-32-Processor
+# 5-Stage MIPS32 Processor – Verilog RISC Pipeline
