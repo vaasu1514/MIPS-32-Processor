@@ -41,3 +41,23 @@ The processor supports the following instruction classes:
 
 ### Control
 - HLT (Halt)
+
+## Branch Handling
+
+- Branch target address is computed in the EX stage.
+- A control signal disables incorrect register and memory writes during branch execution.
+- No branch prediction or data forwarding is implemented.
+- Data hazards are avoided in test programs using dummy instructions.
+
+## Verification
+
+The processor is verified using multiple custom Verilog testbenches.
+
+Verification covers:
+- Arithmetic and logical instruction execution
+- Load and store operations
+- Branch control flow
+- Register write-back correctness
+
+Waveforms are generated in `.vcd` format and inspected using **GTKWave**.
+
