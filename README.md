@@ -6,9 +6,9 @@ The design focuses on RTL structure, pipeline register organization, and functio
 This project was developed as part of an NPTEL Hardware Modeling using Verilog course and serves as a hands-on RTL implementation of pipelined processor concepts.
 
 # Processor Features
-5-stage pipelined datapath (IF, ID, EX, MEM, WB)
-Separate pipeline registers between each stage
-Two-phase non-overlapping clocking (clk1, clk2)
-32 × 32-bit register file
-Word-addressed instruction and data memory
-Centralized control logic based on opcode decoding
+-5-stage pipelined datapath (IF, ID, EX, MEM, WB)
+-Separate pipeline registers between each stage
+-Two-phase non-overlapping clocking (clk1, clk2)
+-32 × 32-bit register file
+-Word-addressed instruction and data memory
+-Centralized control logic based on opcode decoding
