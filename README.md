@@ -14,3 +14,30 @@ This project was developed as part of an NPTEL Hardware Modeling using Verilog c
 * Word-addressed instruction and data memory
 * Centralized control logic based on opcode decoding
 
+## Supported Instructions
+
+The processor supports the following instruction classes:
+
+### Arithmetic & Logical (R-type)
+- ADD
+- SUB
+- MUL
+- AND
+- OR
+- SLT
+
+### Immediate Instructions
+- ADDI
+- SUBI
+- SLTI
+
+### Memory Access
+- LW (Load Word)
+- SW (Store Word)
+
+### Branch Instructions
+- BEQZ (Branch if Equal to Zero)
+- BNEQZ (Branch if Not Equal to Zero)
+
+### Control
+- HLT (Halt)
